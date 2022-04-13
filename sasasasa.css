@@ -1,0 +1,246 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  src: url(./Palette_Mosaic/PaletteMosaic-Regular.ttf);
+  font-family: giap;
+}
+.container{
+  width: 1200px;
+  display: flex;
+}
+.menu{
+  overflow-y: scroll;
+  overflow-x: auto;
+  max-width: 250px;
+  height: 100%;
+  padding-right: 50px;
+  height: 100vh !important;
+  
+}
+.logo__menu a{
+  text-decoration: none;
+}
+.menu h1{
+  letter-spacing: 4px;
+  padding: 16px 0;
+}
+.container{
+  width: 1200px;
+  margin: auto;
+}
+.list__jeans{
+  position: relative;
+}
+.logo__menu-list-jeans{
+  overflow: auto;
+}
+.logo__menu-list{
+  color: #757575;
+  padding: 64px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logo__menu-list a{
+  color: #757575;
+  
+}
+.logo__menu-list-jeans{
+  padding: 12px 24px;
+}
+.menu__footer a{
+  color: black;
+  text-decoration: none;
+}
+.menu__footer p{
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+.main{
+  width: 950px;
+}
+.main-menu{
+  padding: 0.1em 16px;
+  width: 100%;
+  clear: both;
+}
+
+.main-menu__left {
+  float: left;
+  
+}
+.main-menu__left{
+  font-size: 30px;
+}
+
+.main-menu__right{
+  float: right;
+  font-size: 30px;
+
+}
+.main-menu__right i{
+  padding: 0 12px;
+}
+.main__img{
+  position: relative;
+}
+.main__img-text{
+  position: absolute;
+  top: 20%;
+  right: 60%;
+  color: white;
+  padding-left: 16PX;
+  font-size: 30px;
+
+}
+.main__img-text a{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 15px;
+
+}
+.main__img-text a:hover{
+  background-color: grey;
+  color: black;
+}
+.items{
+  padding-left: 16px;
+  padding-top: 8px;
+  color: #757575;
+}
+.buy1{
+   width: 950px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.buy2{
+  width: 25%;
+  padding-left: 16px;
+  opacity: 0.6;
+}
+.buy2 img{
+  width: 100%;
+}
+.Subscribe{
+  width: 950px;
+  background-color: black;
+  color: white;
+  height: 250px;
+}
+.Subscribe h2{
+  padding: 20px 16px;
+}
+.Subscribe p{
+  padding-left: 16px;
+  margin-top: 10px;
+}
+.Subscribe input{
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 96%;
+  margin-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+.Subscribe span{
+  padding: 5px;
+  background-color: red;
+  text-align: center;
+}
+.Subscribe span:hover{
+  background-color: gray;
+  color: black;
+}
+.table ul{
+  list-style: none;
+}
+
+.supfooter{
+  width: 950px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.contact{
+  width: 33%;
+  padding-left: 16px;
+  display: inline-block;
+  
+}
+.contact h3{
+  text-align: center;
+}
+.contact h5{
+  text-align: center;
+}
+form input{
+  width: 100%;
+  padding: 8px;
+}
+.about{
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.about p{
+  font-size: 12px;
+}
+.about a{
+  color: black;
+}
+.store{
+  width: 33%;
+  display: inline-block;
+  padding: 0 8px;
+  
+}
+.footer{
+  width: 950px;
+  background-color: black;
+  color: white;
+}
+.footer p{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 20px;
+}
+.footer a{
+  background-color: white;
+}
+.footer a:hover{
+  color: #757575;
+}
+.buy3{
+  position: relative;
+  display: block;
+}
+.buy3 span{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  left: 0;
+
+}
+.buy4{
+  position: absolute;
+  top: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+  left: 50%;
+  display: none;
+}
+.buy3:hover .buy4{
+  background-color: black;
+  display: block;
+}
+.buy5{
+  background-color: black;
+  color: white  ;
+  border: none;
+}

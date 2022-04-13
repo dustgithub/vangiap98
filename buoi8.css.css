@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 39px;
+    background: black;
+    color: white;
+}
+.left{
+    display: flex;
+}
+.left i{
+    width: 10%;
+}
+.left div,.right i{
+    width: 50px;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+.hover:hover{
+    background: gray;
+}
+/* ----- hết menu---- */
+.header{
+    padding: 48px 16px;
+    height: 126px;
+    text-align: center;
+    height: 100%;
+}
+.header h1,.header p{
+    margin: 10px 0;
+}
+.header p{
+    text-align: center;
+}
+.header span{
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+/* ------hết header------ */
+.anh img{
+    height: 100%;
+    width: 100%;
+}
+
+.anh{
+    position: relative;
+    height: 921px;
+}
+.Jane{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: white;
+    font-size: 36px;
+}
+.conment{
+    display: flex;
+    flex-direction: row !important;
+}
+.FASHION{
+    position: absolute;
+    bottom: 440px;
+    left: 20px;
+    color: white;
+    font-size: 27px;
+}
+.SUBSCRIBE{
+    position: absolute;
+    bottom: 360px;
+    left: 20px;
+}
+.SUBSCRIBE button{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    font-weight: bold;
+}
+.SUBSCRIBE button:hover{
+    background: #ccc;
+}
+/* ------ hết ảnh----- */
+.content{
+    background: #ccc;
+    display: flex;
+}
+.left1{
+    width: 70%;
+}
+.right1{
+    width:30%;
+}
+
+.title{
+    background: white;
+    margin: 16px;
+    padding: 12px 24px;
+    text-align: center;
+}
+.title h3,h5,.title p,.button{
+    margin: 10px 0;
+}
+.title span{
+    color: gray;
+}
+.anh2{
+    padding: 16px 0;
+}
+.anh2 img{
+    width: 100%;
+}
+.title p{
+    text-align: justify;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.button button{
+    width: 80px;
+    height: 30px;
+}
+.nenden{
+    background: black;
+    color: white;
+    border: none;
+}
+.nenden span{
+    display: inline-block;
+    background: white;
+    width: 20px;
+    margin-left: 5px;
+    color: black;
+}
+.button button:hover,.nenden span:hover{
+    background: gray;
+    border: none;
+}
+.tacgia{
+    display: flex;
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+}
+.anh3{
+    width: 20%;
+    /* margin-top: 20px; */
+}
+.anh3 img{
+    width: 100%;
+
+}
+.content1{
+    width: 80%;
+    margin-top: 20px;
+}
+.content1 h4,.content1 p{
+    text-align: left;
+    margin: 10px;
+}
+/* ---------------------- hết khối left----- */
+
+.contentright{
+    margin: 16px;   
+}
+.myname{
+    background: black;
+    color: white;
+}
+.myname img{
+    width: 100%;
+}
+.myname h3{
+    margin-top: 20px;
+}
+.myname p{
+    text-align: justify;
+    margin-top: 20px;
+}
+.canletraiphai{
+    margin: 0px 20px;
+}
+
+/* \------ hết contentright--- */
+.posts{
+    margin: 16px;
+}
+
+.popular h3{
+    height: 65px;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+.denim{
+    height: 82px;
+    background:white;
+    color: black;
+    display: flex;
+    padding: 10px;
+}
+.denim img{
+    height: 100%;
+}
+
+.denim h5{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.denim:hover{
+    background: #ccc;
+    cursor: context-menu;
+}
+/* -------- hết posts---------- */
+.advertise{
+    margin: 16px;
+    background: white;
+}
+.advertise1 h3{
+    height: 65px;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.yourad{
+    height: 230px;
+    color: black;
+    padding: 20px;
+}
+.ad{
+    height: 100%;
+    width: 100%;
+    background: rgb(241, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+/* ------------- */
+.ad1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+}
+.ad1 span{
+    height: 18px;
+    background: rgb(231, 230, 230);
+    padding: 0 8px;
+}
+.marginbottom{
+    display: inline-block;
+    margin:  16px 0;
+}
+.fashion{
+    background: black !important;
+    color: white;
+    font-size: 18px;
+    height: 24px !important;
+}
+/* ----------------- */
+
+.yourad2,.yourad3{
+    display: flex;
+    padding: 8px 16px;
+}
+.ad2{
+    margin: auto;   
+}
+.ad2 img{
+    width: 100%;
+}
+.ad3{
+    padding-left: 16px;
+
+}
+/* --------------- */
+
+.modal-body input,.Subcribe button{
+    width: 100%;
+    height: 50px;
+}
+.modal-body h3{
+    line-height: 2.5;
+}
+.modal-content{
+    width: 100%;
+    padding: 20px;
+}
+.modal-dialog {
+    max-width: 1100px !important;
+    margin: 200px !important;
+    transform: translate(5);
+}
+.Subcribe button{
+    color: white;
+    background: rgb(238, 80, 80);
+    border: none;
+}
+.Subcribe button:hover{
+    background: #ccc;
+    color: black;
+}
+@media screen and (max-width:900px) {
+    .header {
+        background-color: red;
+    }
+    .menu{
+        display: none;
+    }
+}
+ @media screen and (max-width:900px) {
+    .content{
+        flex-direction: column;
+    }
+    .left1, .right1{
+        width: 100%;
+    }
+}

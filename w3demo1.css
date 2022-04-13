@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.conainer{
+  width: 100%;
+
+}
+.menu{
+  width: 20%;
+}

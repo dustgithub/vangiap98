@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+}
+.search{
+    position: relative;
+    height: 30px;
+    color: #aaacaf;
+    margin-left: 10px;
+}
