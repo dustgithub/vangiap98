@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu ul {
+            display: flex;
+            position: relative;
+        }
+        .menu ul li{
+            list-style: none;
+            width: 100px;
+            height: 40px;
+            border:1px solid black;
+        }
+        .menu ul li ul{
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 45px;
+            left: 0;
+        }
+        /* .menu ul li:hover ul{
+            display: block;
+        } */
+        .menu ul li a:focus ul{
+            display: block;
+            background-color: black;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li> <a href="">fsdgdfg1</a>
+                <ul>
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </ul>
+            </li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+</body>
+</html>
